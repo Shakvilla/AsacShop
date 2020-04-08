@@ -1,0 +1,194 @@
+body {
+    font-family: 'Montserrat, san-serif';
+    font-weight: '400';
+}
+
+a i {
+    color: #ECDDD9;
+    font-size: 18px !important;
+}
+
+h1, h2, h3 {
+    font-weight: 900;
+}
+
+h4, h5, h6 {
+    font-weight: 700;
+}
+
+.btn {
+    border-radius: 0% !important;
+    box-shadow: none !important;
+}
+
+/*****************************
+BUTTONS STYLING
+*****************************/
+
+.btn-primary {
+    background-color: black !important;
+    border-color: black !important;
+}
+
+.btn-primary:hover {
+    background-color: transparent !important;
+    color: black !important;
+}
+
+.btn-outline-secondary {
+    background-color: #020100 !important;
+    color: white !important;
+}
+
+.btn-outline-secondary:hover {
+    color: #020100 !important;
+    background-color: #fefffe !important;
+}
+
+/*****************************
+HEADINGS  STYLING
+*****************************/
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-heading::first-letter {
+    color: #ECDDD9;
+}
+
+.navbar {
+    opacity: 1;
+}
+
+.navbar-brand {
+    font-size: 2rem
+}
+
+.nav-link, .navbar-brand {
+    color: #020100 !important;
+}
+
+.nav-link:hover {
+    color: #777 !important;
+}
+
+.navbar .btn-primary {
+    color: #fefffe !important;
+}
+
+.navbar .btn-primary:hover {
+    color: #020100 !important;
+    background-color: transparent !important;
+}
+
+/*****************************
+HOME PAGE STYLING
+*****************************/
+
+.home {
+    min-height: 660px;
+    overflow: hidden;
+    background-image: url("../images/main-5.jpg");
+    background-position: bottom;
+    background-size: cover;
+}
+
+.card {
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+.call-to-action {
+    background-color: #020100;
+    color: #ECDDD9;
+}
+
+
+/* Gallery Page */
+
+.gallery{
+  column-count: 3;
+  column-width: 33;
+}
+.gallery .pics{
+
+  position: relative;
+  overflow: hidden !important;
+}
+
+
+.price-tag{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: #020100;
+  padding: 20px;
+  color: white;
+}
+.price{
+  font-size: 2rem;
+  font-weight: 700;
+}
+.cedis{
+  font-size: 1.4rem;
+}
+
+.gallery .pics img:hover{
+
+  transform: scale(1.3);
+}
+
+/* Testimonials Page */
+
+.testimonial-image{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+
+}
+
+.testimonials{
+  background-color: black;
+  color: white;
+}
+
+
+/* Contact Us  */
+
+
+.input[type="text"],
+.input[type="password"],
+.input[type="datetime"],
+.input[type="datetime-local"],
+.input[type="date"],
+.input[type="month"],
+.input[type="week"],
+.input[type="time"],
+.input[type="week"],
+.input[type="number"],
+.input[type="email"],
+.input[type="url"],
+.input[type="search"],
+.input[type="tel"],
+.input[type="color"],
+.textarea{
+
+  border-radius: 0 !important;
+  padding: 30px 10px !important;
+  border: none;
+  border-bottom: 1px solid #020100;
+  color: #020100;
+
+}
